@@ -45,7 +45,7 @@
     </header>
     <!--end of navbar-->
     <!--Home-->
-    <div class="home">
+    <div href="#home" class="home">
       <div class="left-container">
         <h1>I'm A Full Stack Developer</h1>
         <p>
@@ -65,17 +65,17 @@
     </div>
     <!--end of home-->
     <!--About-->
-    <div class="about">
+    <div href="#about" class="about">
       <h2 class="about-title">About</h2>
       <h3 class="intro">Hi! My Name Is Nitheesh Kumar</h3>
       <p class="about-description">
         Welcome to my realm of front-end sorcery! Armed with HTML, CSS,
-        JavaScript, Bootstrap, and the captivating powers of React.js and
-        Tailwind, I conjure visually stunning interfaces that bewitch users with
-        their beauty and usability. Constantly attuned to the latest frontend
-        technologies, I bring a touch of magic to troubleshooting, ensuring
-        seamless experiences. With excellent communication skills and a knack
-        for collaboration, I weave together the talents of fellow developers to
+        JavaScript, Bootstrap, and the captivating powers of React.js, I conjure
+        visually stunning interfaces that bewitch users with their beauty and
+        usability. Constantly attuned to the latest frontend technologies, I
+        bring a touch of magic to troubleshooting, ensuring seamless
+        experiences. With excellent communication skills and a knack for
+        collaboration, I weave together the talents of fellow developers to
         create digital wonders. Join me on this exhilarating journey where
         innovation meets creativity, and let's cast spells of awe and delight in
         the realm of user experiences. Together, we'll leave a lasting
@@ -161,13 +161,28 @@
         Submit Your Details Below To Get In Contact
       </p>
       <div class="details-submission-container">
-        <input class="txt" type="text" name="Enter Your Name" id="name" />
-        <input class="txt" type="email" name="Enter Your Email" id="email" />
-        <input class="txt" type="tel" name="Enter Your Number" id="number" />
+        <input
+          class="txt"
+          type="text"
+          placeholder="Enter Your Name"
+          id="name"
+        />
+        <input
+          class="txt"
+          type="email"
+          placeholder="Enter Your Email"
+          id="email"
+        />
+        <input
+          class="txt"
+          type="tel"
+          placeholder="Enter Your Number"
+          id="number"
+        />
         <input
           class="message txt"
           type="text"
-          name="Enter Your Message"
+          placeholder="Enter Your Text"
           id="details"
         />
         <input
@@ -178,5 +193,26 @@
       </div>
     </div>
     <!--end of Contact-->
+    <!--linkedin and github button-->
+    <div class="button-container">
+      <a href="https://www.linkedin.com/in/nitheesh-kumar-s-948b94147/">
+        <button class="social-links">
+          <img
+            class="social-link-image"
+            src="./images/stickylinkedin-in.svg"
+            alt="blank"
+          /></button
+      ></a>
+      <a href="https://github.com/Nitheesh-Kumar99">
+        <button class="social-links">
+          <img
+            class="social-link-image"
+            src="./images/stickygithub.svg"
+            alt="blank"
+          />
+        </button>
+      </a>
+    </div>
+    <!--end of linkedin and github button-->
   </body>
 </html>
